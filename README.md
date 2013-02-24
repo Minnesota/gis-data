@@ -22,3 +22,19 @@ Sources and Links
 - http://www.mngeo.state.mn.us/GeoServiceFinder/
 - http://www.mngeo.state.mn.us/chouse/wms/wms_image_server_layers.html
 - ftp://nhdftp.usgs.gov/DataSets/Staged/States/FileGDB/HighResolution/
+
+Additional Data Formats
+-----------------------
+
+Some of this data is only available as Esri Shapefiles. Should you need to
+convert to KML, and don't want to spend time Googling. This approach assumes
+familiarity with a command line.
+
+ 1. Install [GDAL](http://www.gdal.org/). Since there are a number of
+    dependencies (proj4, et al.), it is easiest to use a package manager. 
+    * Homebrew: `brew install gdal`.
+ 2. Make sure `ogr2ogr` is now in your path.
+ 3. Run the command: `ogr2ogr -f KML output.kml input.shp`, substituting the
+    path names to the relevant files.
+
+`ogr2ogr` will convert a variety of other filetypes as well. 
