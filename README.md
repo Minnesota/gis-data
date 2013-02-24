@@ -17,3 +17,8 @@ Sources and Links
 - http://www.dot.state.mn.us/maps/index.html
 - http://data.dot.state.mn.us/datatools/
 - http://www.dot.state.mn.us/maps/gisbase/html/datafiles.html
+- http://deli.dnr.state.mn.us/other_data_sources.html
+- http://www.umesc.usgs.gov/states/m/mn_gis_data.html
+- http://www.mngeo.state.mn.us/GeoServiceFinder/
+- http://www.mngeo.state.mn.us/chouse/wms/wms_image_server_layers.html
+- ftp://nhdftp.usgs.gov/DataSets/Staged/States/FileGDB/HighResolution/
